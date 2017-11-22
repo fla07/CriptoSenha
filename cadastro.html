@@ -1,7 +1,8 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+<meta charset=UTF-8 />
 	<head>
-		<title>Login Criptografado</title>
+		<title>Cadastro Criptografado</title>
 		<script type="text/javascript" src="script.js"></script>
 		<link rel="stylesheet" href="style2.css" type="text/css" />
 	</head>
@@ -11,12 +12,20 @@
 			<h4>Cadastre seus dados</h4>
 				<hr>
 	        		<form class="login-inner">
-	    			   <div><h2>Informe seu e-mail</h2></div>
-				    	<div><input type="email" class="form-control email" id="email-input" placeholder="Email"></div>
-	    			    <div><h2>Confirme seu e-mail</h2></div>
-	    				<div><input type="email" class="form-control email" id="email-input" placeholder="Email"></div>
+	        			<div>
+				    		<label for="nome">Informe seu nome: </label>
+				    		<input type="email" class="form-control email" id="email-input" placeholder="Nome">
+				    	</div>
+	    				<div>
+				    		<label for="Informe seu email">Informe seu email: </label>
+				    		<input type="email" class="form-control email" id="email-input" placeholder="Email">
+				    	</div>
+	    				<div>
+	    					<label for="Confirme seu email">Confirme o email: </label>
+	    					<input type="email" class="form-control email" id="email-input" placeholder="Confirme Email">
+	    				</div>
     					<input class="btn btn-block btn-lg btn-success submit" type="submit" value="Entrar">
-						<div><br><h2>Aguarde o e-mail de confirmação, sua senha será gerada automaticamente pelo sistema</h2></div>
+						<div><br><br><br><h2>*Aguarde o e-mail de confirmação, sua senha será gerada automaticamente pelo sistema</h2></div>
 	
 					</form>
 	    		</div>

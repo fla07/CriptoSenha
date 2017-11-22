@@ -8,7 +8,7 @@ body {
 	margin-top: 45px !important;
 	padding-bottom: 15px;
 	width: 450px;
-	height: 480px;
+	height: 300px;
 	min-width: 320px;
 	max-width: 450px;
 	background-color: rgba(110,10,202,0.6);
@@ -40,6 +40,11 @@ h2{
 	padding-bottom: 2px;
 	margin-right: 5px;
 }
+.label{
+	float: left;
+	font-size: 15px;
+}
+
 .submit {
 	margin-top: 10px;
 	-moz-border-radius: 8px;
@@ -52,6 +57,7 @@ h2{
     background-color: rgba(138,43,226,0.8);
     color: white;
     width: 80px;
+    float: right;
 	
 }
 .submit:hover{
