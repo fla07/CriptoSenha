@@ -1,0 +1,83 @@
+body {
+    background-color: #DDA0DD;
+    background-image: url(pink.jpg);
+    background-repeat: repeat;
+    background-position: center;
+}
+.login {
+	margin-top: 45px !important;
+	padding-bottom: 15px;
+	width: 450px;
+	min-width: 320px;
+	max-width: 450px;
+	height: 250px;
+	background-color: rgba(110,10,202,0.6);
+	margin:0 auto;
+	border-radius: 9px;
+    text-align: center;
+    color:white;
+}
+.login-inner {
+	margin:0 auto;
+	max-width: 415px;
+	width: auto;
+}
+.login>h4 {
+	font-size: 25px;
+	text-align: center;
+	font-weight:bold;
+}
+.email {
+	margin-bottom: 15px;
+	margin-right: 5px;
+	padding-bottom: 2px;
+	float:center;
+}
+.password {
+	margin-bottom: 15px;
+	padding-bottom: 2px;
+	margin-right: 5px;
+	float: center;
+}
+.submit {
+	margin-top: 10px;
+	-moz-border-radius: 8px;
+    -webkit-border-radius: 10px;
+    -moz-box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    -webkit-box-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+    border-bottom: 1px solid;
+    outline:none;
+    font-size: 14px;
+    background-color: rgba(138,43,226,0.8);
+    color: white;
+    width: 80px;
+	
+}
+.submit:hover{
+    background-color: rgb(139,0,139);
+    color: white;
+}
+
+
+.forgot {
+	min-width:50px;
+	width: 49%;
+	float: right;
+	margin-top: 20px;
+}
+.register {
+	width: 50%;
+	float: left;
+	margin-top: 20px;
+}
+@media (max-width: 320px) {
+	.forgot {
+		font-size: 9px;
+		font-weight: 700;
+		padding: 8px;
+	}
+}
+a{
+    color: white;
+    font-size: 18px;
+}
